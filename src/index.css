@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: ballantines;
+        src: url("./assets/fonts/ballantines.ttf");
+    }
+
+    @font-face {
+        font-family: raleway;
+        src: url("./assets/fonts/raleway.ttf");
+    }
+
+    .bg-hero-1 {
+        background-image: url("./src/assets/images/home_1.jpg");
+    }
+
+    .bg-hero-2 {
+        background-image: url("./src/assets/images/home_2.jpg");
+    }
+}
